@@ -530,7 +530,7 @@ bool VisitFunctionDecl(FunctionDecl *f)
 		std::string args_in;
 		char param_in[10][256];
 		//write input ports definitoins 
-		for(int i=0;i<f->getNumParams();i++)
+		for(int i=0;i<(int)f->getNumParams();i++)
 		{
 			args_in = f->parameters()[i]->getQualifiedNameAsString();
 			//llvm::errs() << "params(" << i << ") is " << args[i] << "\n";
