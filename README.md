@@ -1,10 +1,10 @@
-C2Verilog
-=========
+C-to-D-Wave
+===========
 
 Description
 -----------
 
-This program translates C programs, written using a very small subset of C, to Verilog.
+This program compiles C programs, written using a very small subset of C, to a form suitable for running on a D-Wave quantum annealer by translating through Verilog to D-Wave APIs.
 
 Status
 ------
@@ -16,4 +16,4 @@ License
 
 BSD 3-Clause Clear.  See [LICENSE.md](LICENSE.md) for the full text.
 
-Triad National Security, LLC owns the copyright to C2Verilog (identified internally as C18102).
+Triad National Security, LLC owns the copyright to C-to-D-Wave (identified internally as C18102).
